@@ -16,4 +16,4 @@ gerar_gatito <- function(){
     graphics::plot()
 }
 
-utils::globalVariables(c('temp'))
+utils::globalVariables(c('tmp'))
