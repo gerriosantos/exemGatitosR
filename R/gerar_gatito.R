@@ -4,7 +4,6 @@
 #' @return Nào retorna nada
 #' @export
 #'
-#'
 gerar_gatito <- function(){
   tmp <- tempfile(fileext = '.jpeg')
   utils::download.file('https://cataas.com/cat',
