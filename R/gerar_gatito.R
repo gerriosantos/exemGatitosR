@@ -8,7 +8,7 @@
 gerar_gatito <- function(){
   tmp <- tempfile(fileext = '.jpeg')
   utils::download.file('https://cataas.com/cat',
-                       temp, quiet = TRUE)
+                       tmp, quiet = TRUE)
 
   tmp |>
     jpeg::readJPEG() |>
